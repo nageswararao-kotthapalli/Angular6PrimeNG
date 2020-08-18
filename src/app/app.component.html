@@ -39,7 +39,7 @@
 </div>
 <div>
   <p-dialog header="Title" [(visible)]="display" [responsive]="true" [modal]="true" dismissableMask='true'>
-    {{select_tableRow|json}}
+    {{selectedTableRow|json}}
     <p-footer>
       <button pButton type="button" class="ui-button-raised ui-button-rounded" label="Close"
         (click)="display=false"></button>
