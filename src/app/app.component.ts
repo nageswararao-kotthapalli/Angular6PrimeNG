@@ -22,7 +22,7 @@ export class AppComponent {
     this.http.get(this.apiurl).subscribe(res => this.users = res['hits']);
   }
   select_tableRow(event) { // Upon selecting a row in the table
-    this.select_tableRow = event;
+    this.selectedTableRow = event;
     this.display = true;
   }
 }
